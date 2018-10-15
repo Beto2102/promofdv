@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+    RewriteBase /
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://www.promofdv.com.ve/$1 [R=301,L]
+</IfModule>
